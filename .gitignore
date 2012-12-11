@@ -1,0 +1,14 @@
+/Build/
+/Configuration/Settings.yaml
+/Configuration/Testing/Settings.yaml
+/Configuration/PackageStates.php
+/Configuration/Caches.yaml
+/Configuration/Production/IncludeCachedConfigurations.php
+/Data/
+/Packages/
+/Web/
+/Readme.txt
+/Upgrading.txt
+/flow
+/flow.bat
+/bin

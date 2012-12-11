@@ -1,0 +1,38 @@
+#                                                                        #
+# Routes configuration                                                   #
+#                                                                        #
+
+##
+# Acme.DemoServer subroutes
+#
+
+-
+  name: 'DemoServer'
+  uriPattern: '<DemoServerSubroutes>'
+  subRoutes:
+    DemoServerSubroutes:
+      package: Acme.DemoServer
+
+##
+# TYPO3.SingleSignOn.Server subroutes
+#
+
+-
+  name: 'SingleSignOn'
+  uriPattern: 'sso/<SingleSignOnSubroutes>'
+  subRoutes:
+    SingleSignOnSubroutes:
+      package: TYPO3.SingleSignOn.Server
+
+##
+# Flow subroutes
+#
+
+-
+  name: 'Flow'
+  uriPattern: '<FlowSubroutes>'
+  defaults:
+    '@format': 'html'
+  subRoutes:
+    FlowSubroutes:
+      package: TYPO3.Flow

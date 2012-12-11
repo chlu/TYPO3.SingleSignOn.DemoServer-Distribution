@@ -1,0 +1,44 @@
+#                                                                        #
+# Example Settings                                                       #
+#                                                                        #
+# This file contains settings for various parts of the application.      #
+# Copy this file to Settings.yaml, and adjust as necessary.              #
+#                                                                        #
+# Please refer to the default settings file(s) or the manuals for        #
+# possible configuration options.                                        #
+#                                                                        #
+
+TYPO3:
+  Flow:
+    persistence:
+
+      # It is good practice to not specify user name and password of the database
+      # connection in this global Settings.yaml file. Rather specify them in the
+      # settings of the respective context (Production / Development ...).
+      backendOptions:
+        host: '127.0.0.1'    # adjust to your database host
+
+  # You might need to uncomment the following lines and specify
+  # the location of the PHP binary manually.
+  #  core:
+  #    phpBinaryPathAndFilename: 'C:/path/to/php.exe'
+
+  SingleSignOn:
+    Server:
+      server:
+        # Key pair uuid for the server, will be set by setup command
+        keyPairUuid: ''
+Acme:
+  DemoServer:
+    # Note: You should configure the demo instance URI for proper links in the demo server frontend
+    demoInstanceUri: 'http://ssoinstance/'
+    # A list of SSO clients to register in the demo server
+    clients:
+      -
+        # Note: You have to configure the correct URI for the demo instance
+        serviceBaseUri: 'http://ssoinstance/sso'
+      # The demo server can configure a list of demo instances as clients
+      #  -
+      #   serviceBaseUri: 'http://ssoinstance2/backend/ssoclient'
+      #   # The clients will use a fixture public key by default
+      #   publicKeyFilename: 'resource://Acme.DemoServer/Private/Fixtures/DemoClient.pub'
