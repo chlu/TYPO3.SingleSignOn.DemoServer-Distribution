@@ -6,7 +6,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "ssh://review.networkteam.com:29418/flow3/projects/somea/packages/Acme.DemoServer.git",
+                "url": "https://github.com/chlu/TYPO3.SingleSignOn.DemoServer.git",
                 "reference": "5409f7f9ee54aa92b644151cc1cacf995bb5d4b1"
             },
             "require": {
@@ -340,18 +340,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console",
-                "reference": "d66ea18150830592870fec4da54cddf46426e78f"
+                "reference": "73a1613c94eba600b42938360232b8ecf7e76078"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/Console/archive/d66ea18150830592870fec4da54cddf46426e78f.zip",
-                "reference": "d66ea18150830592870fec4da54cddf46426e78f",
+                "url": "https://github.com/symfony/Console/archive/73a1613c94eba600b42938360232b8ecf7e76078.zip",
+                "reference": "73a1613c94eba600b42938360232b8ecf7e76078",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
-            "time": "2012-12-11 10:49:22",
+            "time": "2012-12-11 14:06:57",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -383,31 +383,39 @@
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "2.0.x-dev",
+            "version": "dev-master",
             "target-dir": "Symfony/Component/DomCrawler",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/DomCrawler",
-                "reference": "v2.0.19"
+                "reference": "b186c987f56375ebb1be9a7dd6686352db1ce096"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/DomCrawler/archive/v2.0.19.zip",
-                "reference": "v2.0.19",
+                "url": "https://github.com/symfony/DomCrawler/archive/b186c987f56375ebb1be9a7dd6686352db1ce096.zip",
+                "reference": "b186c987f56375ebb1be9a7dd6686352db1ce096",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2"
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/css-selector": "2.2.*"
             },
             "suggest": {
-                "symfony/css-selector": "2.0.x-dev"
+                "symfony/css-selector": "2.2.*"
             },
-            "time": "2012-11-19 12:39:22",
+            "time": "2012-11-29 10:32:45",
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                }
+            },
             "installation-source": "source",
             "autoload": {
                 "psr-0": {
-                    "Symfony\\Component\\DomCrawler": ""
+                    "Symfony\\Component\\DomCrawler\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -480,7 +488,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.FLOW3.git",
-                "reference": "cb1e5194b9d2543d2985a354f3bc69b61689e3b9"
+                "reference": "45748b4260057285059c162f0d8447325311a768"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -494,10 +502,10 @@
                 "doctrine/migrations": "*",
                 "doctrine/data-fixtures": "*",
                 "symfony/yaml": "~2.1",
-                "symfony/dom-crawler": "~2.0.16",
+                "symfony/dom-crawler": "~2.2",
                 "typo3/flow-composer-installers": "*"
             },
-            "time": "2012-12-11 11:40:01",
+            "time": "2012-12-11 13:52:12",
             "type": "typo3-flow-framework",
             "installation-source": "source",
             "autoload": {
@@ -574,13 +582,13 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.Fluid.git",
-                "reference": "c8edc44714a6d08b5ebf783d9659002a72332aeb"
+                "reference": "ebe1ae3c852a759bc2db47fd31d5b3677a6b0f62"
             },
             "require": {
                 "typo3/flow-composer-installers": "*",
                 "typo3/flow": "*"
             },
-            "time": "2012-12-11 08:44:00",
+            "time": "2012-12-11 13:13:39",
             "type": "typo3-flow-framework",
             "installation-source": "source",
             "autoload": {
@@ -623,7 +631,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "ssh://review.networkteam.com:29418/flow3/packages/TYPO3.SingleSignOn.Client.git",
+                "url": "https://github.com/chlu/TYPO3.SingleSignOn.DemoServer.git",
                 "reference": "5eb79a1ba426fcc6bd76f702c4e92d8c97be3a4c"
             },
             "require": {
@@ -644,7 +652,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "ssh://review.networkteam.com:29418/flow3/packages/TYPO3.SingleSignOn.Server.git",
+                "url": "https://github.com/chlu/TYPO3.SingleSignOn.Server.git",
                 "reference": "f100ce30fbef50ab4844291dc720e516fea42db6"
             },
             "require": {
