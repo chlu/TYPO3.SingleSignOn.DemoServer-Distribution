@@ -150,19 +150,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal",
-                "reference": "2e2336a6c1c3dd3897f9419df9675a5fb0a0edda"
+                "reference": "74c7616132ad82420320e76fa49781ee2f6af532"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/doctrine/dbal/archive/2e2336a6c1c3dd3897f9419df9675a5fb0a0edda.zip",
-                "reference": "2e2336a6c1c3dd3897f9419df9675a5fb0a0edda",
+                "url": "https://github.com/doctrine/dbal/archive/74c7616132ad82420320e76fa49781ee2f6af532.zip",
+                "reference": "74c7616132ad82420320e76fa49781ee2f6af532",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2",
                 "doctrine/common": ">=2.3-dev,<2.5-dev"
             },
-            "time": "2012-11-30 21:33:17",
+            "time": "2012-12-11 16:41:50",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -442,18 +442,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Yaml",
-                "reference": "bed4fddc24392513e01b32a78d600b1272ed9a6c"
+                "reference": "fb72a16857d99722019e5bd307c0b4d0a381dc7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/Yaml/archive/bed4fddc24392513e01b32a78d600b1272ed9a6c.zip",
-                "reference": "bed4fddc24392513e01b32a78d600b1272ed9a6c",
+                "url": "https://github.com/symfony/Yaml/archive/fb72a16857d99722019e5bd307c0b4d0a381dc7e.zip",
+                "reference": "fb72a16857d99722019e5bd307c0b4d0a381dc7e",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
-            "time": "2012-11-13 14:08:04",
+            "time": "2012-12-12 10:54:56",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -466,6 +466,7 @@
                     "Symfony\\Component\\Yaml\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -488,7 +489,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.FLOW3.git",
-                "reference": "45748b4260057285059c162f0d8447325311a768"
+                "reference": "36817a61b02bd7466fc607b3147ec445122029d1"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -505,7 +506,7 @@
                 "symfony/dom-crawler": "~2.2",
                 "typo3/flow-composer-installers": "*"
             },
-            "time": "2012-12-11 13:52:12",
+            "time": "2012-12-12 20:51:41",
             "type": "typo3-flow-framework",
             "installation-source": "source",
             "autoload": {
@@ -582,13 +583,13 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.Fluid.git",
-                "reference": "ebe1ae3c852a759bc2db47fd31d5b3677a6b0f62"
+                "reference": "06ac5bce073785de32bec004a2c98c53726e8057"
             },
             "require": {
                 "typo3/flow-composer-installers": "*",
                 "typo3/flow": "*"
             },
-            "time": "2012-12-11 13:13:39",
+            "time": "2012-12-12 20:13:27",
             "type": "typo3-flow-framework",
             "installation-source": "source",
             "autoload": {
@@ -653,7 +654,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chlu/TYPO3.SingleSignOn.Server.git",
-                "reference": "d4489361af4758f57ce74b7e5f49270b414a1d89"
+                "reference": "f7f09631dde8c1709616cfda2d7369ab4f7b7e76"
             },
             "require": {
                 "typo3/flow": "*",
@@ -662,7 +663,7 @@
             "require-dev": {
                 "mockery/mockery": "0.7.*"
             },
-            "time": "2012-12-12 14:17:01",
+            "time": "2012-12-13 13:25:04",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
