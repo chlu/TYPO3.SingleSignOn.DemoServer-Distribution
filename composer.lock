@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "1e3bb4d4e4059db387b3a15072cd53f3",
+    "hash": "fca4e9e133d79f35820afa000e622f80",
     "packages": [
         {
             "name": "acme/demoserver",
@@ -11,7 +11,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chlu/TYPO3.SingleSignOn.DemoServer.git",
-                "reference": "8de313fb30c680564f8700ad537e8fb808157a71"
+                "reference": "acbf732c436dd06b2e021a4d278c002f51774166"
             },
             "require": {
                 "typo3/flow": "*",
@@ -25,7 +25,7 @@
                 }
             },
             "description": "SSO Demo Server",
-            "time": "2013-04-17 12:53:26"
+            "time": "2013-04-17 14:59:19"
         },
         {
             "name": "composer/installers",
@@ -967,7 +967,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chlu/TYPO3.SingleSignOn.Client.git",
-                "reference": "40bd243c2e8d64ba026af8140abb59a0611725aa"
+                "reference": "45a20423a375b5c62f2513ed1403840cf219396f"
             },
             "require": {
                 "typo3/flow": "*"
@@ -979,7 +979,7 @@
                 }
             },
             "description": "TYPO3 SingleSignOn Client",
-            "time": "2012-12-13 14:41:06"
+            "time": "2013-04-17 14:20:41"
         },
         {
             "name": "typo3/singlesignon-server",
