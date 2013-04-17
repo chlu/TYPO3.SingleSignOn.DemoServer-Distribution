@@ -987,7 +987,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chlu/TYPO3.SingleSignOn.Server.git",
-                "reference": "5208c2a240d3522c0f750aca6eaf674a7afd4205"
+                "reference": "5f4e600bf654eb16eea04056100b2c360d19a2ed"
             },
             "require": {
                 "typo3/flow": "*",
@@ -1003,7 +1003,7 @@
                 }
             },
             "description": "TYPO3 SingleSignOn Server",
-            "time": "2013-04-17 12:49:29"
+            "time": "2013-04-17 19:11:28"
         },
         {
             "name": "typo3/twitter-bootstrap",
