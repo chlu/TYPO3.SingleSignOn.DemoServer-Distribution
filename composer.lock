@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "fca4e9e133d79f35820afa000e622f80",
+    "hash": "801aa442a346641d5ccbfd22a440ebee",
     "packages": [
         {
             "name": "acme/demoserver",
